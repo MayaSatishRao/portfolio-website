@@ -1,0 +1,123 @@
+/* search bar styles */
+
+.search-bar{
+    display: flex;
+    margin:4rem 1rem 2rem;
+    align-items: center;
+    position:relative;
+  }
+  .icon{
+    height:1.75rem;
+    width:1.75rem;
+    margin-right:1rem;
+  }
+  
+  .icon span, .icon svg{
+     width:100%;
+     height:100%;
+     cursor:pointer;
+  }
+  
+  .google-logo{
+    width:7.5rem;
+    height:2.5rem;
+    position:absolute;
+    left:2rem;
+  }
+  
+  .google-logo img{
+    height:100%;
+    width:100%;
+  }
+  
+  .bar{
+    display:flex;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius:2rem;
+    width:50vw;
+    justify-content: space-around;
+    position: absolute;
+    left:12rem;
+  }
+  
+  .bar-input{
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar input{
+    height:3rem;
+    border:none;
+    font-size: 1.25rem;
+    color:#5f6368;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    outline: none;
+    padding-left:1rem;
+    border-radius: 2rem;
+    width:35vw;
+  }
+  
+  
+  .bar button{
+    border:none;
+    background: transparent;
+    padding:1rem;
+    cursor:pointer;
+    font-size: 1.25rem;
+    color:#5f6368
+  }
+  
+  .line{
+    content: "";
+    width:1px;
+    height:2rem;
+    background-color: #dadce0;
+    margin:0;
+    padding:0;
+  }
+  .icon-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settings{
+    position: absolute;
+    right:2rem;
+  }
+  
+  .account{
+    background-color: #0288d1;
+    color:white;
+    font-family: sans-serif;
+    color:white;
+    height:1.75rem;
+    width:1.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  @media (max-width:1000px) {
+      html{
+        font-size: 80%;
+      }
+      
+  }
+  
+  @media (max-width:800px) {
+    html{
+      font-size: 70%;
+    }
+    .search-icon{
+      display: none;
+    }
+    .bar input{
+      margin-left:1rem;
+    }
+  }

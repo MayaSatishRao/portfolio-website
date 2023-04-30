@@ -1,0 +1,12 @@
+.mob-sb{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .mob-sb{
+        display: block;
+    }
+    .comp-sb{
+        display: none;
+    }
+}
