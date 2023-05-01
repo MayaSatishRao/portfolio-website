@@ -25,7 +25,7 @@ const MobileEducation = ()=>{
             <p className="ed-link">Bengaluru,India <span style={{fontWeight:"bold"}}>Dec,2020 - June,2024</span></p>
           </div>
 
-          <div className="work">
+          <div className="work" >
             <p className="ed-link">https://work-experience/<span style={{fontWeight:"bold"}}>INTERNSHIPS</span></p>
             <p className="ed-name">Project Intern at IISc</p>
             <p className="ed-link">Bengaluru,India <span style={{fontWeight:"bold"}}>Oct,2022 - Jan,2023</span></p>

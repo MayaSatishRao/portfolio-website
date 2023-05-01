@@ -7,9 +7,10 @@
 }
 
 .education{
-    margin-bottom: 2rem;
     width:40vw;
 }
+
+
 
 .ed-link{
     color:#5f6368;
@@ -57,7 +58,7 @@
 .profile{
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-right: 2rem;
 }
@@ -123,6 +124,21 @@
         font-size: 2rem;
     }
     .about{
+        font-size: 1.5rem;
+    }
+
+    .profile{
+        margin-right: 2.5rem;
+    }
+    .profile-image{
+        width:4rem;
+        height:4rem;
+    }
+    .leetcode-image{
+        width:3.5rem;
+        height: 3.5rem;
+    }
+    .profile a{
         font-size: 1.5rem;
     }
 }
