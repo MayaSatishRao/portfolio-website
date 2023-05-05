@@ -2,6 +2,8 @@ import React from "react"
 
 import "./Projects.css";
 import Project from "./Project"
+import Prizes from "./Prizes";
+import Footer from "../footer/Footer";
 
 import { projectDetails, hackathons } from "../../assets/data";
 const Projects = ()=>{
@@ -18,10 +20,6 @@ const Projects = ()=>{
 
              {
                 projectDetails.map((pd,idx)=>{
-                    
-                    if(idx == projectDetails.length-1)
-                    return <Project name={pd.name} url={pd.link} details={pd.details} />
-                    else
                     return (
                         <>
                         <Project name={pd.name} url={pd.link} details={pd.details} />
@@ -31,7 +29,10 @@ const Projects = ()=>{
                 })
              }
          </div>
+     <Prizes/>
+     <Footer/>
      </div>
+
      </div>
     )
      
